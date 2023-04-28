@@ -53,7 +53,7 @@ li {
 }
 
 .bg {
-  background: url(../images/photo2.jpg);
+
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -64,14 +64,13 @@ li {
   background-position: center;
 }
 
-.bg h1 {
-  color: rgb(255, 157, 0);
-  text-align: center;
-  font-size: 60px;
+.about
+{
+    background-color:  #0B732B;
+
 }
 
-.bg h2 {
-  text-align: center;
-  color: rgb(234, 74, 106);
-  font-size: 55px;
-}/*# sourceMappingURL=style.css.map */
+.about p
+{
+    color: red;
+}
