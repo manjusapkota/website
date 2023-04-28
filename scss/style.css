@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 80px;
+}
+
+ul {
+  list-style: none;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.top {
+  background: green;
+  margin-bottom: 0;
+  line-height: 45PX;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+li {
+  display: inline;
+  padding: 5PX;
+}
+
+.navbar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.bg-light {
+  background: #0B732B !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  padding: 15px 13px;
+  font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background: orange;
+}
+
+.bg {
+  background: url(../image/pexels-inmortal-producciones-336232.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+}
+
+.bg h1 {
+  color: orange;
+  text-align: center;
+  font-size: 60px;
+}
+
+.bg h2 {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}/*# sourceMappingURL=style.css.map */
